@@ -24,7 +24,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	font-family: $font;
-	font-size: 1.4rem;
+	font-size: 1.8rem;
 	font-weight: $font-normal;
 	line-height: 1.6;
 	position: relative;
@@ -153,6 +153,7 @@ hr {
 
 /* ==========  Custom  ========== */
 .container {
+	font-family: 'Poppins', sans-serif;
 	display: block;
 	color: #333333;
 	width: 100%;
@@ -160,7 +161,7 @@ hr {
 	padding: 0 4em;
 	position: relative;
 	@media (max-width: 575px) {
-		padding: 0 2em;
+		padding: 0 .02em;
 	}
 }
 
