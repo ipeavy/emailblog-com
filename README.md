@@ -1,7 +1,7 @@
 # [GuideForNewEmailDevs](https://guidefornewemaildev.netlify.app/)
 
-<img src="https://i.imgur.com/SkgbYzU.png" alt="download-1" border="0">
-
+<!-- <img src="https://i.imgur.com/SkgbYzU.png" alt="download-1" border="0">
+ -->
 ## About The Project
 
 
