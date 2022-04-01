@@ -154,6 +154,7 @@ hr {
 /* ==========  Custom  ========== */
 .container {
 	display: block;
+	color: #333333;
 	width: 100%;
 	max-width: 100em;
 	margin: 0 auto;
@@ -308,6 +309,7 @@ hr {
 @import "partials/form";
 @import "partials/grid";
 @import "partials/toasts";
+@import "partials/home";
 
 @import "partials/header";
 @import "partials/footer";
