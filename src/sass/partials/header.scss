@@ -2,4 +2,38 @@
 	display: block;
 	width: 100%;
 	border-bottom: $border $color-border;
+
+	.header-container {
+		background-image: url("https://i.imgur.com/mVkNIbx.gif");
+		background-position: center;
+		background-size: cover;
+		height: 100vh;
+		position: relative;
+		text-align: center;
+
+		h1 {
+			position: absolute;
+			padding: 1rem;
+			text-align: center;
+			top: 35%;
+			color: #ffffff;
+			z-index: 3;
+			width: 100%;
+
+			@include breakpoint(medium) {
+				padding-right: 20rem;
+				padding-left: 20rem;
+			}
+
+		}
+	}
+
+	.overlay {
+		background-color: #000000;
+		height: 100vh;
+		width: 100%;
+		position: relative;
+		opacity: .55;
+		z-index: 2;
+	}
 }
