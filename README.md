@@ -1,36 +1,100 @@
-# FrontEnd Starter
-FrontEnd Starter is all-inclusive boilerplate for easy building sites using task manager Gulp 4
-* Examples on [https://zakandaiev.github.io/frontend-starter](https://zakandaiev.github.io/frontend-starter)
+# [GuideForNewEmailDevs](https://guidefornewemaildev.netlify.app/)
 
-# How to use
-1. Download/Clone [FrontEnd Starter from GitHub](https://github.com/zakandaiev/frontend-starter)
-2. Install Node Modules using `npm i`
-3. Explore `package.json` & `gulpfile.js` to learn how it works
-4. Explore `src` folder to learn structure logic
-5. Use
-	* `npm run dev` or `gulp` task to start Dev mode
-	* `npm run prod` or `gulp --prod` task to start Prod mode
-6. Enjoy ;)
+<!-- <img src="https://i.imgur.com/SkgbYzU.png" alt="download-1" border="0">
+ -->
+## About The Project
 
-# Features
-* Well thought-out structure
-* Dev & Prod modes
-* Gulp 4
-* HTML5 and CSS3 ready
-* SASS/SCSS preprocessor
-* File include engine
-* Autoprefixer
-* Babel
-* Browsersync server & watcher
-* HTML, CSS, JS, Image auto minifier
-* reseter.css
-* .htaccess, robots.txt, sitemap.xml, favicon
-* Predefined styles
-* Easy grid system
-* Helper classes
-* Cross-browser compatibility
-* 404 page
-* And more...
 
-# Homepage
-[https://zakandaiev.github.io/frontend-starter](https://zakandaiev.github.io/frontend-starter)
+### Fork this repository
+
+Fork this repository by clicking on the fork button on the top of this page.
+This will create a copy of this repository in your account.
+
+### Clone the repository
+
+Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button and then click the _copy to clipboard_ icon.
+
+Open a terminal and run the following git command:
+
+```
+git clone "url you just copied"
+```
+
+where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
+
+For example:
+
+```
+git clone https://github.com/your-username/emailblog.git
+```
+
+where `your-username` is your GitHub username. Here you're copying the contents of the first-contributions repository on GitHub to your computer.
+
+### Create a branch
+
+Change to the repository directory on your computer (if you are not already there):
+
+```
+cd emailblog
+```
+
+Now create a branch using the `git checkout` command:
+
+```
+git checkout -b your-new-branch-name
+```
+
+For example:
+
+```
+git checkout -b addAnotherTip
+```
+
+(Please let the name of the branch be descriptive of the changes you are about to make.)
+
+### Make necessary changes and commit those changes
+
+Now go ahead and make the necessary contributions you want to make.
+
+You can execute the command `git status`, to see the files you have made the changes to.
+
+Add those changes to the branch you just created using the `git add .` command:
+
+```
+git add .
+```
+
+Now commit those changes using the `git commit` command:
+
+```
+git commit -m "Descriptive commit message on the changes you made."
+```
+
+### Push changes to GitHub
+
+Please before you push your codes to the repository make sure you pull from the repository, so the recent changes that have been made to the main repo can be reflected on your local machine. This is to avoid merge conflicts. Use the git command line `git pull upstream main`
+
+```
+git pull upstream main
+```
+
+and fix any merge conflicts you might have before pushing your changes.
+
+Now push your changes using the command `git push`:
+
+```
+git push origin your-new-branch-name
+```
+
+replacing `your-new-branch-name` with the name of the branch you created earlier.
+
+### Submit your changes for review
+
+If you go to your repository on GitHub, you'll see a `Compare & pull request` button. Click on that button.
+
+Now submit the pull request.
+
+Your changes or contributions will be reviewed and if ok, merged into the main branch of this project. You will get a notification email once the changes have been merged.
+
+[⬆ Back to Top](#title)
+
