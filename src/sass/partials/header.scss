@@ -19,11 +19,17 @@
 			color: #ffffff;
 			z-index: 3;
 			width: 100%;
+			line-height: 50px;
 
 			@include breakpoint(medium) {
 				padding-right: 20rem;
 				padding-left: 20rem;
 			}
+			@include breakpoint(large) {
+				font-size: 5rem;
+			}
+
+			
 
 		}
 	}
