@@ -1,154 +1,148 @@
-
 body {
-     color: #333333;
-     font-family: 'Poppins', sans-serif;
- }
- 
- h1 {
-     font-size: 4rem;
-     text-align: left;
-     font-weight: 500;
-     line-height: 4rem;
+    color: #333333;
+    font-family: 'Poppins', sans-serif;
+}
 
-     @include breakpoint-down(small){
-          text-align: center;
-     }
- 
-     @include breakpoint(medium) {
-         font-size: 3rem;
-     }
- }
- 
- h2 {
-     font-size: 3rem;
-     text-align: center;
-     font-weight: 450;
+h1 {
+    font-size: 4rem;
+    text-align: left;
+    font-weight: 500;
+    line-height: 4rem;
 
-     @include breakpoint-down(small){
-          text-align: center;
-     }
- 
-     @include breakpoint(medium) {
-         font-size: 2.8rem;
-     }
- }
- 
- h3 {
-     font-size: 2rem;
-     text-align: left;
-     font-weight: 400;
-     padding: 0 0 1.3rem 0;
+    @include breakpoint-down(small) {
+        text-align: center;
+    }
 
-     @include breakpoint-down(small){
-          text-align: center;
-     }
- 
-     @include breakpoint(medium) {
-         font-size: 2.5rem;
-     }
- }
- 
- 
- 
- a,
- a:visited,
- a:hover,
- a:active {
-     color: #0F56B9;
-     transition: all 1s ease-in-out;
- }
- 
- .body-container {
-     .promo {
-         position: relative;
-         text-align: center;
-         margin: 0 auto;
-         max-width: 1366px;
-         background: #ffffff;
-         width: 100%;
-         box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.15);
-         padding: 1rem 1.5rem 0 1.5rem;
- 
-         @include breakpoint(medium) {
-             margin: 1rem auto;
-         }
- 
-         .read {
-             position: relative;
-             display: flex;
-             flex-direction: row;
-             padding: 1rem 0 1rem 0;
-             justify-content: space-between;
- 
-             .social {
-                 position: relative;
-                 padding: .5rem 0 0 0;
- 
-                 a {
-                     margin-right: 2rem;
-                 }
-             }
- 
-             p {
-                 text-align: right;
-                 margin: 0;
-             }
-         }
- 
- 
- 
-         .promo-img {
-             display: flex;
-             flex-direction: row;
- 
-             p {
-                 padding: 1.5rem;
-                 font-weight: 400;
-                 margin: 0;
-             }
-         }
-     }
- }
- 
- .container {
-     background: #ffffff;
- 
-     p {
-         text-align: left;
-         padding: 1.3rem 0 0 0;
-         font-weight: 350;
-         margin: 0;
-         letter-spacing: 0.01rem;
+    @include breakpoint(medium) {
+        font-size: 3rem;
+    }
+}
 
-         @include breakpoint-down(small){
-              text-align: center;
-         }
-     }
- 
- 
- 
- 
- 
-     .content-container {
-         padding: 2rem 0rem 2rem 0rem;
- 
-         @include breakpoint(medium) {
-             max-width: 50%;
-             margin: 0 auto;
-         }
- 
-         &.heading {
-             padding: 10rem 0rem 10rem 0rem;
- 
-         }
- 
-         &.emailonacid {
-             img {
-                 width: 100%;
- 
-             }
-         }
-     }
- 
- 
- }
+h2 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 450;
+
+    @include breakpoint-down(small) {
+        text-align: center;
+    }
+
+    @include breakpoint(medium) {
+        font-size: 2.8rem;
+    }
+}
+
+h3 {
+    font-size: 2rem;
+    text-align: left;
+    font-weight: 400;
+    padding: 0 0 1.3rem 0;
+
+    @include breakpoint-down(small) {
+        text-align: center;
+    }
+
+    @include breakpoint(medium) {
+        font-size: 2.5rem;
+    }
+}
+
+
+
+a,
+a:visited,
+a:hover,
+a:active {
+    color: #0F56B9;
+    transition: all 1s ease-in-out;
+}
+
+.body-container {
+    .promo {
+        position: relative;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 1366px;
+        background: #ffffff;
+        width: 100%;
+        box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.15);
+        padding: 1rem 1.5rem 0 1.5rem;
+
+        @include breakpoint(medium) {
+            margin: 1rem auto;
+        }
+
+        .read {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            padding: 1rem 0 1rem 0;
+            justify-content: space-between;
+
+            .social {
+                position: relative;
+                padding: .5rem 0 0 0;
+
+                a {
+                    margin-right: 2rem;
+                }
+            }
+
+            p {
+                text-align: right;
+                margin: 0;
+            }
+        }
+
+
+
+        .promo-img {
+            display: flex;
+            flex-direction: row;
+
+            p {
+                padding: 1.5rem;
+                font-weight: 400;
+                margin: 0;
+            }
+        }
+    }
+}
+
+.container {
+    background: #ffffff;
+
+    p {
+        color: #000000;
+        font-size: 18px;
+        line-height: 32px;
+        margin: 5px 5px 24px;
+    }
+
+
+
+
+
+    .content-container {
+        padding: 2rem 0rem 2rem 0rem;
+
+        @include breakpoint(medium) {
+            max-width: 50%;
+            margin: 0 auto;
+        }
+
+        &.heading {
+            padding: 10rem 0rem 10rem 0rem;
+
+        }
+
+        &.emailonacid {
+            img {
+                width: 100%;
+
+            }
+        }
+    }
+
+
+}
